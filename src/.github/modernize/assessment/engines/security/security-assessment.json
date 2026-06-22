@@ -1,0 +1,123 @@
+{
+  "GeneratedAt": "2026-06-22T10:06:09.0000000Z",
+  "ProjectPath": ".",
+  "Summary": {
+    "TotalFindings": 8,
+    "CveCount": 5,
+    "CweCount": 3,
+    "BySeverity": {
+      "mandatory": 5,
+      "optional": 1,
+      "potential": 2
+    },
+    "ByCategory": {
+      "CVE": 5,
+      "Code Quality": 2,
+      "Credentials & Secrets": 1
+    },
+    "TotalRulesAssessed": 59,
+    "RulesPassed": 56
+  },
+  "CveFindings": [
+    {
+      "Id": "CVE-2021-21252",
+      "Name": "Regular Expression Denial of Service in jquery-validation",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2021-21252](https://github.com/advisories/GHSA-jxwx-85vp-gvwm): Regular Expression Denial of Service in jquery-validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - jQuery.Validation:1.11.1 (declared at packages.config:7)\n\nRecommended fix:\n  - Upgrade jQuery.Validation to 1.19.3 or later",
+      "Files": [
+        "packages.config:7"
+      ],
+      "Explanation": "[CVE-2021-21252](https://github.com/advisories/GHSA-jxwx-85vp-gvwm): Regular Expression Denial of Service in jquery-validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - jQuery.Validation:1.11.1 (declared at packages.config:7)\n\nRecommended fix:\n  - Upgrade jQuery.Validation to 1.19.3 or later"
+    },
+    {
+      "Id": "CVE-2023-33170",
+      "Name": "Microsoft Security Advisory CVE-2023-33170: .NET Security Feature Bypass Vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-33170](https://github.com/advisories/GHSA-25c8-p796-jg6r): Microsoft Security Advisory CVE-2023-33170: .NET Security Feature Bypass Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - Microsoft.AspNet.Identity.Owin:1.0.0 (declared at packages.config:10) \u00e2\u20ac\u201d affected versions < 2.2.4\n\nRecommended fix:\n  - Upgrade Microsoft.AspNet.Identity.Owin to 2.2.4 or later",
+      "Files": [
+        "packages.config:10"
+      ],
+      "Explanation": "[CVE-2023-33170](https://github.com/advisories/GHSA-25c8-p796-jg6r): Microsoft Security Advisory CVE-2023-33170: .NET Security Feature Bypass Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - Microsoft.AspNet.Identity.Owin:1.0.0 (declared at packages.config:10) \u00e2\u20ac\u201d affected versions < 2.2.4\n\nRecommended fix:\n  - Upgrade Microsoft.AspNet.Identity.Owin to 2.2.4 or later"
+    },
+    {
+      "Id": "CVE-2022-29117",
+      "Name": ".NET Denial of Service Vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-29117](https://github.com/advisories/GHSA-3rq8-h3gj-r5c6): .NET Denial of Service Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - Microsoft.Owin:2.0.0 (declared at packages.config:16) \u00e2\u20ac\u201d affected versions < 4.2.2\n  - Microsoft.Owin.Security.Cookies:2.0.0 (declared at packages.config:19) \u00e2\u20ac\u201d affected versions < 4.2.2\n\nRecommended fix:\n  - Upgrade Microsoft.Owin to 4.2.2 or later\n  - Upgrade Microsoft.Owin.Security.Cookies to 4.2.2 or later",
+      "Files": [
+        "packages.config:16",
+        "packages.config:19"
+      ],
+      "Explanation": "[CVE-2022-29117](https://github.com/advisories/GHSA-3rq8-h3gj-r5c6): .NET Denial of Service Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - Microsoft.Owin:2.0.0 (declared at packages.config:16) \u00e2\u20ac\u201d affected versions < 4.2.2\n  - Microsoft.Owin.Security.Cookies:2.0.0 (declared at packages.config:19) \u00e2\u20ac\u201d affected versions < 4.2.2\n\nRecommended fix:\n  - Upgrade Microsoft.Owin to 4.2.2 or later\n  - Upgrade Microsoft.Owin.Security.Cookies to 4.2.2 or later"
+    },
+    {
+      "Id": "CVE-2020-1045",
+      "Name": "Cookie parsing failure",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2020-1045](https://github.com/advisories/GHSA-hxrm-9w7p-39cc): Cookie parsing failure in Microsoft.Owin\n\nSeverity: HIGH\n\nAffected dependencies:\n  - Microsoft.Owin:2.0.0 (declared at packages.config:16) \u00e2\u20ac\u201d affected versions < 4.1.1\n\nRecommended fix:\n  - Upgrade Microsoft.Owin to 4.1.1 or later",
+      "Files": [
+        "packages.config:16"
+      ],
+      "Explanation": "[CVE-2020-1045](https://github.com/advisories/GHSA-hxrm-9w7p-39cc): Cookie parsing failure in Microsoft.Owin\n\nSeverity: HIGH\n\nAffected dependencies:\n  - Microsoft.Owin:2.0.0 (declared at packages.config:16) \u00e2\u20ac\u201d affected versions < 4.1.1\n\nRecommended fix:\n  - Upgrade Microsoft.Owin to 4.1.1 or later"
+    },
+    {
+      "Id": "CVE-2024-21907",
+      "Name": "Improper Handling of Exceptional Conditions in Newtonsoft.Json",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-21907](https://github.com/advisories/GHSA-5crp-9r3c-p9vr): Improper Handling of Exceptional Conditions in Newtonsoft.Json\n\nSeverity: HIGH\n\nAffected dependencies:\n  - Newtonsoft.Json:5.0.6 (declared at packages.config:27) \u00e2\u20ac\u201d affected versions < 13.0.1\n\nRecommended fix:\n  - Upgrade Newtonsoft.Json to 13.0.1 or later",
+      "Files": [
+        "packages.config:27"
+      ],
+      "Explanation": "[CVE-2024-21907](https://github.com/advisories/GHSA-5crp-9r3c-p9vr): Improper Handling of Exceptional Conditions in Newtonsoft.Json\n\nSeverity: HIGH\n\nAffected dependencies:\n  - Newtonsoft.Json:5.0.6 (declared at packages.config:27) \u00e2\u20ac\u201d affected versions < 13.0.1\n\nRecommended fix:\n  - Upgrade Newtonsoft.Json to 13.0.1 or later"
+    }
+  ],
+  "CweFindings": [
+    {
+      "Id": "CWE-570",
+      "Name": "Expression is Always False",
+      "Category": "Code Quality",
+      "Severity": "optional",
+      "StoryPoint": 1,
+      "Description": "The product contains an expression that will always evaluate to false.",
+      "Files": [
+        "Windows/MixedAuthExtensions.cs"
+      ],
+      "Explanation": "In MixedAuthExtensions.cs, the method ReadUserIdFromSession (line 163) checks `if (string.IsNullOrEmpty(userIdKey))` at line 167, where `userIdKey` is a class-level constant defined as `const string userIdKey = \"windows.userId\"`. Because it is a non-empty compile-time constant, this condition will always evaluate to false and the guard will never throw an ApplicationException even when the local `userId` variable is null or empty. The intended check should be against the local variable `userId`."
+    },
+    {
+      "Id": "CWE-1057",
+      "Name": "Data Access Operations Outside of Expected Data Manager Component",
+      "Category": "Code Quality",
+      "Severity": "potential",
+      "StoryPoint": 5,
+      "Description": "The product uses a dedicated, central data manager component as required by design, but it contains code that performs data-access operations that do not use this data manager.",
+      "Files": [
+        "Controllers/AccountController.cs"
+      ],
+      "Explanation": "In AccountController.cs, the default constructor (line 18-21) directly instantiates the data access layer: `new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext()))`. The `ApplicationDbContext` (Entity Framework DbContext) is created directly inside the controller rather than being injected via a dedicated data manager or repository component, violating separation of concerns and bypassing any centralized data access management."
+    },
+    {
+      "Id": "CWE-778",
+      "Name": "Insufficient Logging",
+      "Category": "Credentials & Secrets",
+      "Severity": "potential",
+      "StoryPoint": 3,
+      "Description": "When a security-critical event occurs, the product either does not record the event or omits important details about the event when logging it.",
+      "Files": [
+        "Controllers/AccountController.cs",
+        "Controllers/AccountController.Windows.cs"
+      ],
+      "Explanation": "The application has no logging infrastructure. Security-critical events such as failed login attempts (AccountController.cs, Login action, lines 46-58), failed Windows authentication attempts (AccountController.Windows.cs, WindowsLogin action, line 33), user registration (AccountController.cs, Register action, lines 79-96), and password changes (AccountController.cs, Manage action, lines 143-155) are not logged. There is no use of any logging framework (e.g., NLog, log4net, Serilog, or the built-in .NET tracing APIs) anywhere in the codebase."
+    }
+  ]
+}
